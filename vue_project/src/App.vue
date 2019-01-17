@@ -99,6 +99,7 @@ export default {
     margin: 6px;
     background-color: gray;
     border-radius: 10px;
+    color: white;
   }
   .done {
     color: #666;
