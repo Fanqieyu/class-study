@@ -2,8 +2,8 @@
   <div id="app">
     <!-- <todo-list></todo-list> -->
     <!-- <light-shine></light-shine> -->
-    <star-box></star-box>
-    <!-- <card-father></card-father> -->
+    <!-- <star-box></star-box> -->
+    <card-father></card-father>
   </div>
 </template>
 
