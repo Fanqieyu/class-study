@@ -4,7 +4,9 @@
     <!-- <light-shine></light-shine> -->
     <!-- <star-box></star-box> -->
     <!-- <card-father></card-father> -->
-    <progress-bar></progress-bar>
+    <!-- <progress-bar></progress-bar> -->
+    <custom-order></custom-order>
+    <!-- <table-list></table-list> -->
   </div>
 </template>
 
@@ -15,6 +17,8 @@ import LightShine from './components/LightShine.vue'
 import StarBox from './components/StarBox.vue'
 import CardFather from './components/CardFather.vue'
 import ProgressBar from './pages/ProgressBar.vue'
+import CustomOrder from './pages/CustomOrder.vue'
+import TableList from './pages/TableList.vue'
 export default {
   name: 'app',
   components: {
@@ -23,7 +27,9 @@ export default {
       LightShine,
       StarBox,
       CardFather,
-      ProgressBar
+      ProgressBar,
+      CustomOrder,
+      TableList
   }
 }
 </script>
