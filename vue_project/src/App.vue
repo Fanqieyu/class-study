@@ -5,8 +5,10 @@
     <!-- <star-box></star-box> -->
     <!-- <card-father></card-father> -->
     <!-- <progress-bar></progress-bar> -->
-    <custom-order></custom-order>
+    <!-- <custom-order></custom-order> -->
+    <!-- <table-list-me></table-list-me> -->
     <!-- <table-list></table-list> -->
+    <table-row></table-row>
   </div>
 </template>
 
@@ -18,7 +20,9 @@ import StarBox from './components/StarBox.vue'
 import CardFather from './components/CardFather.vue'
 import ProgressBar from './pages/ProgressBar.vue'
 import CustomOrder from './pages/CustomOrder.vue'
+import TableListMe from './pages/TableListMe.vue'
 import TableList from './pages/TableList.vue'
+import TableRow from './pages/TableRow.vue'
 export default {
   name: 'app',
   components: {
@@ -29,7 +33,9 @@ export default {
       CardFather,
       ProgressBar,
       CustomOrder,
-      TableList
+      TableListMe,
+      TableList,
+      TableRow
   }
 }
 </script>
